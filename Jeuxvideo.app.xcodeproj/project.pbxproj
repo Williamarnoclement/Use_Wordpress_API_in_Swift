@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6259EF4D272F2CCA0079EE70 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6259EF4C272F2CCA0079EE70 /* AppDelegate.swift */; };
+		6259EF4F272F2CCA0079EE70 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6259EF4E272F2CCA0079EE70 /* SceneDelegate.swift */; };
+		6259EF51272F2CCA0079EE70 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6259EF50272F2CCA0079EE70 /* ViewController.swift */; };
+		6259EF54272F2CCA0079EE70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6259EF52272F2CCA0079EE70 /* Main.storyboard */; };
+		6259EF57272F2CCA0079EE70 /* Jeuvdeo_app.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6259EF55272F2CCA0079EE70 /* Jeuvdeo_app.xcdatamodeld */; };
+		6259EF59272F2CCB0079EE70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6259EF58272F2CCB0079EE70 /* Assets.xcassets */; };
+		6259EF5C272F2CCB0079EE70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6259EF5A272F2CCB0079EE70 /* LaunchScreen.storyboard */; };
+		6259EF64272F2F930079EE70 /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6259EF63272F2F930079EE70 /* Api.swift */; };
+		6259EF6A272F487A0079EE70 /* JVViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6259EF69272F487A0079EE70 /* JVViewController.swift */; };
+		6259EF6C272F720F0079EE70 /* String+HTML.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6259EF6B272F720F0079EE70 /* String+HTML.swift */; };
+		6259EF6F272F75270079EE70 /* ArticleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6259EF6D272F75270079EE70 /* ArticleViewController.swift */; };
+		6259EF72272F7E8B0079EE70 /* SwiftSoup in Frameworks */ = {isa = PBXBuildFile; productRef = 6259EF71272F7E8B0079EE70 /* SwiftSoup */; };
+		6259EF75272F80290079EE70 /* PostContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6259EF74272F80290079EE70 /* PostContent.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6259EF49272F2CCA0079EE70 /* Jeuxvideo.app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jeuxvideo.app.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6259EF4C272F2CCA0079EE70 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6259EF4E272F2CCA0079EE70 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6259EF50272F2CCA0079EE70 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6259EF53272F2CCA0079EE70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6259EF56272F2CCA0079EE70 /* Jeuvdeo_app.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Jeuvdeo_app.xcdatamodel; sourceTree = "<group>"; };
+		6259EF58272F2CCB0079EE70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6259EF5B272F2CCB0079EE70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6259EF5D272F2CCB0079EE70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6259EF63272F2F930079EE70 /* Api.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
+		6259EF69272F487A0079EE70 /* JVViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = JVViewController.swift; path = Assets.xcassets/JVViewController.swift; sourceTree = "<group>"; };
+		6259EF6B272F720F0079EE70 /* String+HTML.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+HTML.swift"; sourceTree = "<group>"; };
+		6259EF6E272F75270079EE70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Base; path = Base.lproj/ArticleViewController.swift; sourceTree = "<group>"; };
+		6259EF74272F80290079EE70 /* PostContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostContent.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6259EF46272F2CCA0079EE70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6259EF72272F7E8B0079EE70 /* SwiftSoup in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6259EF40272F2CCA0079EE70 = {
+			isa = PBXGroup;
+			children = (
+				6259EF4B272F2CCA0079EE70 /* Jeuxvideo.app. */,
+				6259EF4A272F2CCA0079EE70 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6259EF4A272F2CCA0079EE70 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6259EF49272F2CCA0079EE70 /* Jeuxvideo.app.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6259EF4B272F2CCA0079EE70 /* Jeuxvideo.app. */ = {
+			isa = PBXGroup;
+			children = (
+				6259EF4C272F2CCA0079EE70 /* AppDelegate.swift */,
+				6259EF4E272F2CCA0079EE70 /* SceneDelegate.swift */,
+				6259EF50272F2CCA0079EE70 /* ViewController.swift */,
+				6259EF52272F2CCA0079EE70 /* Main.storyboard */,
+				6259EF58272F2CCB0079EE70 /* Assets.xcassets */,
+				6259EF5A272F2CCB0079EE70 /* LaunchScreen.storyboard */,
+				6259EF5D272F2CCB0079EE70 /* Info.plist */,
+				6259EF55272F2CCA0079EE70 /* Jeuvdeo_app.xcdatamodeld */,
+				6259EF63272F2F930079EE70 /* Api.swift */,
+				6259EF73272F80120079EE70 /* Model */,
+				6259EF69272F487A0079EE70 /* JVViewController.swift */,
+				6259EF6B272F720F0079EE70 /* String+HTML.swift */,
+				6259EF6D272F75270079EE70 /* ArticleViewController.swift */,
+			);
+			path = Jeuxvideo.app.;
+			sourceTree = "<group>";
+		};
+		6259EF73272F80120079EE70 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6259EF74272F80290079EE70 /* PostContent.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6259EF48272F2CCA0079EE70 /* Jeuxvideo.app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6259EF60272F2CCB0079EE70 /* Build configuration list for PBXNativeTarget "Jeuxvideo.app" */;
+			buildPhases = (
+				6259EF45272F2CCA0079EE70 /* Sources */,
+				6259EF46272F2CCA0079EE70 /* Frameworks */,
+				6259EF47272F2CCA0079EE70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Jeuxvideo.app;
+			packageProductDependencies = (
+				6259EF71272F7E8B0079EE70 /* SwiftSoup */,
+			);
+			productName = Jeuvdeo.app;
+			productReference = 6259EF49272F2CCA0079EE70 /* Jeuxvideo.app.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6259EF41272F2CCA0079EE70 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					6259EF48272F2CCA0079EE70 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 6259EF44272F2CCA0079EE70 /* Build configuration list for PBXProject "Jeuxvideo.app" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6259EF40272F2CCA0079EE70;
+			packageReferences = (
+				6259EF70272F7E8B0079EE70 /* XCRemoteSwiftPackageReference "SwiftSoup" */,
+			);
+			productRefGroup = 6259EF4A272F2CCA0079EE70 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6259EF48272F2CCA0079EE70 /* Jeuxvideo.app */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6259EF47272F2CCA0079EE70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6259EF5C272F2CCB0079EE70 /* LaunchScreen.storyboard in Resources */,
+				6259EF59272F2CCB0079EE70 /* Assets.xcassets in Resources */,
+				6259EF54272F2CCA0079EE70 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6259EF45272F2CCA0079EE70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6259EF51272F2CCA0079EE70 /* ViewController.swift in Sources */,
+				6259EF4D272F2CCA0079EE70 /* AppDelegate.swift in Sources */,
+				6259EF6C272F720F0079EE70 /* String+HTML.swift in Sources */,
+				6259EF6F272F75270079EE70 /* ArticleViewController.swift in Sources */,
+				6259EF75272F80290079EE70 /* PostContent.swift in Sources */,
+				6259EF57272F2CCA0079EE70 /* Jeuvdeo_app.xcdatamodeld in Sources */,
+				6259EF64272F2F930079EE70 /* Api.swift in Sources */,
+				6259EF4F272F2CCA0079EE70 /* SceneDelegate.swift in Sources */,
+				6259EF6A272F487A0079EE70 /* JVViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6259EF52272F2CCA0079EE70 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6259EF53272F2CCA0079EE70 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6259EF5A272F2CCB0079EE70 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6259EF5B272F2CCB0079EE70 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		6259EF6D272F75270079EE70 /* ArticleViewController.swift */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6259EF6E272F75270079EE70 /* Base */,
+			);
+			name = ArticleViewController.swift;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6259EF5E272F2CCB0079EE70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6259EF5F272F2CCB0079EE70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6259EF61272F2CCB0079EE70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZCM8PW3JHR;
+				INFOPLIST_FILE = Jeuxvideo.app./Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "app.Jeuxvideo-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		6259EF62272F2CCB0079EE70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZCM8PW3JHR;
+				INFOPLIST_FILE = Jeuxvideo.app./Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "app.Jeuxvideo-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6259EF44272F2CCA0079EE70 /* Build configuration list for PBXProject "Jeuxvideo.app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6259EF5E272F2CCB0079EE70 /* Debug */,
+				6259EF5F272F2CCB0079EE70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6259EF60272F2CCB0079EE70 /* Build configuration list for PBXNativeTarget "Jeuxvideo.app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6259EF61272F2CCB0079EE70 /* Debug */,
+				6259EF62272F2CCB0079EE70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6259EF70272F7E8B0079EE70 /* XCRemoteSwiftPackageReference "SwiftSoup" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/scinfu/SwiftSoup";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.3.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6259EF71272F7E8B0079EE70 /* SwiftSoup */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6259EF70272F7E8B0079EE70 /* XCRemoteSwiftPackageReference "SwiftSoup" */;
+			productName = SwiftSoup;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		6259EF55272F2CCA0079EE70 /* Jeuvdeo_app.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6259EF56272F2CCA0079EE70 /* Jeuvdeo_app.xcdatamodel */,
+			);
+			currentVersion = 6259EF56272F2CCA0079EE70 /* Jeuvdeo_app.xcdatamodel */;
+			path = Jeuvdeo_app.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6259EF41272F2CCA0079EE70 /* Project object */;
+}
